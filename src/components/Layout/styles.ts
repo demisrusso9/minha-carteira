@@ -1,11 +1,5 @@
 import styled from 'styled-components'
 
-/*
-MH = Main Header
-AS = Aside
-CT = Content
-*/
-
 export const Grid = styled.div`
    display: grid;
    grid-template-columns: 250px auto;
@@ -15,5 +9,11 @@ export const Grid = styled.div`
    'AS MH'
    'AS CT';
 
-   height: 100vh;
+   height: 100vh;   
 `;
+
+/*
+MH = Main Header
+AS = Aside
+CT = Content
+*/
