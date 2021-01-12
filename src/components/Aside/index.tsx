@@ -11,6 +11,8 @@ import {
    MdExitToApp,
 } from "react-icons/md";
 
+import { Link } from "react-router-dom";
+
 const Aside: React.FC = () => {
    return (
       <Container>
@@ -20,7 +22,7 @@ const Aside: React.FC = () => {
          </Header>
 
          <Menu>
-            <MenuLink href="#">
+            <MenuLink href="/dashboard">               
                <MdDashboard /> Dashboard
             </MenuLink>
 
@@ -29,12 +31,12 @@ const Aside: React.FC = () => {
                Novo Registro
             </MenuLink>
 
-            <MenuLink href="#">
+            <MenuLink href="/list/entry-balance">
                <MdArrowUpward />
                Entradas
             </MenuLink>
 
-            <MenuLink href="#">
+            <MenuLink href="/list/exit-balance">
                <MdArrowDownward />
                Saídas
             </MenuLink>
