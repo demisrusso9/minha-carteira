@@ -1,3 +1,3 @@
 ## Criando Dashboard usando React com TypeScript
 
->Link: https://www.udemy.com/course/react-e-typescript/
+>Curso Udemy: [React e TypeScript: desenvolvendo um Dashboard](https://www.udemy.com/course/react-e-typescript/)
